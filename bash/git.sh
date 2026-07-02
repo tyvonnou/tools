@@ -139,7 +139,7 @@ function get_gitlab_url() {
     # Construire l'URL GitLab
     local pathname
     pathname=$(echo "$remote" | sed 's/\.git\/\?$//')
-    echo "${pathname}/-/tree/${branch}"
+    echo "${pathname}/tree/${branch}"
 }
 
 # Récupérer l'URL distante du dépôt
