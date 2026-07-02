@@ -3,7 +3,7 @@
 declare -r BASH_PATH_TOOLS="$(dirname "$(realpath "${BASH_SOURCE}")")"
 declare -r PARENT_PATH_TOOLS="$(dirname "$(dirname "$(realpath "${BASH_SOURCE}")")")"
 # imports
-# source "${BASH_PATH}/git.sh"
+source "${BASH_PATH_TOOLS}/git.sh"
 
 
 # Prompt GIT
