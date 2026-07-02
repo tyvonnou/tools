@@ -7,9 +7,9 @@ declare -r PARENT_PATH_TOOLS="$(dirname "$(dirname "$(realpath "${BASH_SOURCE}")
 
 
 # Prompt GIT
-if [ -f "${PARENT_PATH_TOOLS}/lib/bash-git-prompt/gitprompt.sh" ]; then
+if [ -f "${PARENT_PATH_TOOLS}/bash-git-prompt/gitprompt.sh" ]; then
     GIT_PROMPT_ONLY_IN_REPO=1
-    source "${PARENT_PATH_TOOLS}/lib/bash-git-prompt/gitprompt.sh"
+    source "${PARENT_PATH_TOOLS}/bash-git-prompt/gitprompt.sh"
 fi
 
 # alias
