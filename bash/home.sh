@@ -5,7 +5,6 @@ declare -r PARENT_PATH_TOOLS="$(dirname "$(dirname "$(realpath "${BASH_SOURCE}")
 # imports
 source "${BASH_PATH_TOOLS}/git.sh"
 
-
 # Prompt GIT
 if [ -f "${PARENT_PATH_TOOLS}/bash-git-prompt/gitprompt.sh" ]; then
     GIT_PROMPT_ONLY_IN_REPO=1
